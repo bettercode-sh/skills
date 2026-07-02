@@ -15,7 +15,7 @@ If you need any further clarifications from the user you can use the AskQuestion
 
 The next step is to use the TodoWrite tool to create a todolist that you can keep track of and also to show the user progress on the execution of the Phase you're working on.
 
-You'll then begin executing on each step of the Phase and each Section within the Phase.
+You'll then begin executing on each step of the Phase and each Section within the Phase. After you've completed each step that you created using the TodoWrite tool you should use the TodoWrite tool again to check it off to keep track and show progress to the user.
 
 Once you've completed your Phase execution then you'll make sure all items are checked off the TodoWrite checklist and also the checklist that exists in the Phase plan itself (each Section's todo list).
 
