@@ -1,5 +1,5 @@
 ---
-name: bettercode-planner
+name: bettercode-executor
 description: Execute a singular phase from an existing bettercode plan in the codebase.
 ---
 
