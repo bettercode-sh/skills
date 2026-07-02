@@ -5,7 +5,9 @@ description: A custom planner using specifically the tools available in Cursor
 
 The goal of this skill is to create a detailed and comprehensive plan for a feature or task based on the user's limited input. 
 
-The first step is to gather just enough context from the existing codebase to try and better understand what the user is asking for.
+This is a READ-ONLY process. You must not make edits, run non-readonly tools, change configs, or commit anything. The only file you're allowed to create is the plan markdown file.
+
+The first step is to gather just enough context from the existing codebase to try and better understand what the user is asking for. Use parallel explore subagents via the Task tool to look at different parts of the codebase or angles at once.
 
 The second step is to use the AskQuestion tool available in Cursor to ask the user clarifying questions about their request. This will help to ensure that the plan is tailored to their specific needs and requirements. The goal is to gain a clear understanding of the user's objectives, push back on anywhere that their request dissents with the existing codebase, and ensure that there is mutual understanding of the outcomes.
 
@@ -23,6 +25,7 @@ E: Gotchas
 
 Following those sections we need a "Plan" section that includes an in-depth task list with checkboxes that follows the pattern of Phases and Sections. Like this:
 
+----
 ## Phase 1
 - overview of phase 1
 - list of outcomes
@@ -32,6 +35,14 @@ Following those sections we need a "Plan" section that includes an in-depth task
 ### Section 2
 - overview of section 2
 - checklist of items to be completed in this section
+----
+
+Plan quality requirements:
+- Cite specific files and essential snippets
+- Use full-path markdown links for files
+- Keep scope proportional to the task
+- May use mermaid diagrams for architecture/flows
+- No emojis in the plan
 
 The junior engineer will use this plan as a roadmap to see everything that needs to be completed.
 
