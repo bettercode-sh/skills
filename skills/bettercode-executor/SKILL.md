@@ -20,3 +20,5 @@ You'll then begin executing on each step of the Phase and each Section within th
 Once you've completed your Phase execution then you'll make sure all items are checked off the TodoWrite checklist and also the checklist that exists in the Phase plan itself (each Section's todo list).
 
 Leave behind a concise "Completion Notes" section at the end of the Phase with important details that future engineers should be keenly aware of when implementing future Phases.
+
+If you have completed the last Phase of the plan and the plan is complete you should move the plan markdown file from the "open" to "done" folders.
