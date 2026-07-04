@@ -1,5 +1,5 @@
 ---
-name: shipper-executor
+name: shipper-build
 description: Execute a singular phase from an existing Shipper plan in the codebase.
 ---
 

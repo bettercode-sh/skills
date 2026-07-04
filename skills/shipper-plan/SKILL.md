@@ -1,5 +1,5 @@
 ---
-name: shipper-planner
+name: shipper-plan
 description: A custom planner using specifically the tools available in Cursor
 ---
 
