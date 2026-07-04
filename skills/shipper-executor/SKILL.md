@@ -1,9 +1,9 @@
 ---
-name: bettercode-executor
-description: Execute a singular phase from an existing bettercode plan in the codebase.
+name: shipper-executor
+description: Execute a singular phase from an existing Shipper plan in the codebase.
 ---
 
-The goal of this skill is to take bettercode plans (in the .better folder of this repository) and implement a singular phase of the plan to completion.
+The goal of this skill is to take Shipper plans (in the .shipper folder of this repository) and implement a singular phase of the plan to completion.
 
 The user will direct you to which plan they are wanting you to work against. If they don't specify a Phase they want you to work on then you'll need to review the existing plan for what has already been implemented and then ask the user which Phase they'd like for you to work on next using the AskQuestion tool.
 
@@ -13,7 +13,7 @@ From there do your own context gathering/research from the codebase to gain a be
 
 If you need any further clarifications from the user you can use the AskQuestion tool again to gather that information from the user.
 
-The next step is to use the TodoWrite tool to create a todolist that you can keep track of and also to show the user progress on the execution of the Phase you're working on.
+The next step is to use the TodoWrite tool to create a todo list that you can keep track of and also to show the user progress on the execution of the Phase you're working on.
 
 You'll then begin executing on each step of the Phase and each Section within the Phase. After you've completed each step that you created using the TodoWrite tool you should use the TodoWrite tool again to check it off to keep track and show progress to the user.
 

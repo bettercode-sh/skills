@@ -1,5 +1,5 @@
 ---
-name: bettercode-planner
+name: shipper-planner
 description: A custom planner using specifically the tools available in Cursor
 ---
 
@@ -46,4 +46,4 @@ Plan quality requirements:
 
 The junior engineer will use this plan as a roadmap to see everything that needs to be completed.
 
-The markdown file you create should go in a folder at the root of the repository (committed to the repository) called ".better". Inside of this folder there should be an "open" and "done" folders. You'll place this new plan in the "open" folder.
+The markdown file you create should go in a folder at the root of the repository (committed to the repository) called ".shipper". Inside of this folder there should be an "open" and "done" folders. You'll place this new plan in the "open" folder.
