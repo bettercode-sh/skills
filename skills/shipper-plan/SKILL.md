@@ -1,6 +1,6 @@
 ---
 name: shipper-plan
-description: A custom planner using specifically the tools available in Cursor
+description: A custom planning skill to create high-fidelity plans using the Shipper framework
 ---
 
 The goal of this skill is to create a detailed and comprehensive plan for a feature or task based on the user's limited input. 
@@ -9,7 +9,7 @@ This is a READ-ONLY process. You must not make edits, run non-readonly tools, ch
 
 The first step is to gather just enough context from the existing codebase to try and better understand what the user is asking for. Use parallel explore subagents via the Task tool to look at different parts of the codebase or angles at once.
 
-The second step is to use the AskQuestion tool available in Cursor to ask the user clarifying questions about their request. This will help to ensure that the plan is tailored to their specific needs and requirements. The goal is to gain a clear understanding of the user's objectives, push back on anywhere that their request dissents with the existing codebase, and ensure that there is mutual understanding of the outcomes.
+The second step is to use the tool you have available to ask the user clarifying questions about their request. This will help to ensure that the plan is tailored to their specific needs and requirements. The goal is to gain a clear understanding of the user's objectives, push back on anywhere that their request dissents with the existing codebase, and ensure that there is mutual understanding of the outcomes.
 
 The third step is to do another pass to gather any additional context that may be relevant now that the user's objectives are clearer. It is important to also look up any existing reusable parts of the codebase that we should take advantage of.
 
